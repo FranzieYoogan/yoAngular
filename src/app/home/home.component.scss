@@ -1,0 +1,68 @@
+.containerAll {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+
+
+
+.containerButton1 {
+
+    position: relative;
+
+}
+
+.labelStyle {
+    position: absolute;
+    width: 40px;
+    bottom: 80% !important;
+    
+}
+
+.buttonStyle {
+
+    background-color: transparent;
+    color: black;
+    font-weight: 900;
+    border: 2px solid black;
+    text-align: center;
+    width: 250px;
+    transition: 1s;
+}
+
+.buttonStyle:hover, .buttonStyle:active, .buttonStyle:focus {
+
+    border: 2px solid white;
+    color: white;
+    outline: none;
+    box-shadow: none;
+
+}
+
+.buttonStyle2 {
+
+    background-color: transparent;
+    color: white;
+    font-weight: 900;
+    border: 2px solid white;
+    text-align: center;
+    width: 250px;
+    transition: 1s;
+}
+
+.buttonStyle2:hover, .buttonStyle2:active, .buttonStyle2:focus {
+
+    border: 2px solid black;
+    color: black;
+    outline: none;
+    box-shadow: none;
+    
+}
+
+.toggleStyle {
+
+    background-color: black;
+
+}
