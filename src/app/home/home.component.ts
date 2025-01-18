@@ -38,6 +38,7 @@ export class HomeComponent {
       button2.classList.add('buttonStyle2')
       button2.classList.remove('buttonstyle')
       toggle.style.background = 'black'
+      toggle.style.boxShadow = '0px 0px 2px 0px black;'
 
     }
 
